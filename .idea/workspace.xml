@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d545e425-7561-4426-85be-c2283bf3677e" name="Changes" comment="" />
+    <list default="true" id="d545e425-7561-4426-85be-c2283bf3677e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/interview/javase/Collection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/javase/Reflect.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/javase/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/javase/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/javase/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/javase/Static.md" beforeDir="false" afterPath="$PROJECT_DIR$/interview/javase/Static.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/redis/DataType.md" beforeDir="false" afterPath="$PROJECT_DIR$/interview/middleware/DataType.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +19,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="28uCSKH6Nv0bhRPQhF2hgVMt20u" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,10 +48,37 @@
       <option name="presentableId" value="Default" />
       <updated>1652057083046</updated>
       <workItem from="1652057086856" duration="402000" />
+      <workItem from="1652057515008" duration="890000" />
+      <workItem from="1652058450539" duration="9395000" />
     </task>
+    <task id="LOCAL-00001" summary="0509">
+      <created>1652057773727</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652057773727</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="0509" />
+    <option name="LAST_COMMIT_MESSAGE" value="0509" />
   </component>
 </project>
