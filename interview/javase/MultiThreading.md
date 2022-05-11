@@ -1,0 +1,14 @@
+# Java中创建线程的几种方式
+1. 通过继承Thread类来创建并启动线程：
+    - 定义Thread类的子类，并重写该类的run()方法，该run()方法将作为线程执行体。
+    - 创建Thread子类的实例，即创建了线程对象。
+    - 调用线程对象的start()方法来启动该线程。
+2. 通过实现Runnable接口来创建并启动线程：
+    - 定义Runnable接口的实现类，并实现该接口的run()方法，该run()方法将作为线程执行体。
+    - 创建Runnable实现类的实例，并将其作为Thread的target来创建Thread对象，Thread对象为线程对象。
+    - 调用线程对象的start()方法来启动该线程。
+3. 实现Callable接口来创建并启动线程：
+    - 创建Callable接口的实现类，并实现call()方法，该call()方法将作为线程执行体，且该call()方法有返回值。然后再创建Callable
+    - 使用FutureTask类来包装Callable对象，该FutureTask对象封装了该Callable对象的call()方法的返回值。
+    - 使用FutureTask对象作为Thread对象target创建并启动新线程。
+    - 调用FutureTask对象额get()方法来获得子线程执行结束后的返回值。

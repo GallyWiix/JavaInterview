@@ -4,9 +4,11 @@
 + List代表有序，元素可以重复的集合；
 + Queue代表先进先出的队列；
 + Map代表具有映射关系（key-value）的集合。  
+
 collection体系的继承树
 ![img.png](img.png)   
 map体系的继承树  
+
 ![img_1.png](img_1.png)  
 
 # Java中的容器，线程安全和线程不安全的分别有哪些？
@@ -49,4 +51,24 @@ LinkedHashMap可以避免对HashMap、Hashtable里的key-value对进行排序（
 LinkedHashMap需要维护元素的插入顺序，因此性能略低于HashMap的性能。但因为它以链表来维护内部顺序，所以在迭代访问Map里的全部元素时将有较好的性能。  
 
 # LinkedHashMap的底层原理
-LinkedHashMap继承于HashMap，它在HashMap的基础上，通过维护一条双向链表，解决了HashMap不能随时保持遍历顺序和插入顺序一致的问题。在实现上，LinkedHashMap很多方法直接继承自HashMap，仅为维护双向链表重写了部分方法。
+LinkedHashMap继承于HashMap，它在HashMap的基础上，通过维护一条双向链表，解决了HashMap不能随时保持遍历顺序和插入顺序一致的问题。在实现上，LinkedHashMap很多方法直接继承自HashMap，仅为维护双向链表重写了部分方法。   
+
+# TreeMap的底层原理
+TreeMap基于红黑树实现。映射根据其键的自然顺序进行排序，或者根据创建映射时提供的Comparator进行排序，具体取决于使用的构造方法。TreeMap的基本操作containsKey、get、put、remove方法，它的时间复杂度是log(N)。
+
+TreeMap包含几个重要的成员变量：root、size、comparator。其中root是红黑树的根节点。它是Entry类型，Entry是红黑树的节点，它包含了红黑树的6个基本组成：key、value、left、right、parent和color。Entry节点根据根据Key排序，包含的内容是value。Entry中key比较大小是根据比较器comparator来进行判断的。size是红黑树的节点个数。  
+
+# Map和set的区别
+Set代表无序的，元素不可重复的集合；
+
+Map代表具有映射关系（key-value）的集合，其所有的key是一个Set集合，即key无序且不能重复。
+
+#List和set的区别
+Set代表无序的，元素不可重复的集合；
+
+List代表有序的，元素可以重复的集合。  
+
+# ArrayList的数据结构
+ArrayList的底层是用数组来实现的，默认第一次插入元素时创建大小为10的数组，超出限制时会增加50%的容量，并且数据以 System.arraycopy() 复制到新的数组，因此最好能给出数组大小的预估值。
+
+按数组下标访问元素的性能很高，这是数组的基本优势。直接在数组末尾加入元素的性能也高，但如果按下标插入、删除元素，则要用 System.arraycopy() 来移动部分受影响的元素，性能就变差了，这是基本劣势。
