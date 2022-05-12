@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d545e425-7561-4426-85be-c2283bf3677e" name="Changes" comment="0511">
-      <change afterPath="$PROJECT_DIR$/interview/JUC/Introduction.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/JUC/Lock.md" afterDir="false" />
+    <list default="true" id="d545e425-7561-4426-85be-c2283bf3677e" name="Changes" comment="0512">
+      <change afterPath="$PROJECT_DIR$/interview/JUC/Callable.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/JUC/Communication.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/JUC/MultiThreadLock.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/JUC/Lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/interview/JUC/Lock.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <workItem from="1652057086856" duration="402000" />
       <workItem from="1652057515008" duration="890000" />
       <workItem from="1652058450539" duration="24797000" />
-      <workItem from="1652260260424" duration="735000" />
+      <workItem from="1652260260424" duration="12331000" />
     </task>
     <task id="LOCAL-00001" summary="0509">
       <created>1652057773727</created>
@@ -77,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652235302880</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0512">
+      <created>1652316828578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652316828578</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +108,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="0509" />
     <MESSAGE value="0511" />
-    <option name="LAST_COMMIT_MESSAGE" value="0511" />
+    <MESSAGE value="0512" />
+    <option name="LAST_COMMIT_MESSAGE" value="0512" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
