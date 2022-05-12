@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d545e425-7561-4426-85be-c2283bf3677e" name="Changes" comment="0509">
-      <change afterPath="$PROJECT_DIR$/interview/javase/IO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/javase/MultiThreading.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/javase/img_3.png" afterDir="false" />
+    <list default="true" id="d545e425-7561-4426-85be-c2283bf3677e" name="Changes" comment="0511">
+      <change afterPath="$PROJECT_DIR$/interview/JUC/Introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/JUC/Lock.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/javase/Collection.md" beforeDir="false" afterPath="$PROJECT_DIR$/interview/javase/Collection.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +13,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -34,7 +40,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,7 +53,8 @@
       <updated>1652057083046</updated>
       <workItem from="1652057086856" duration="402000" />
       <workItem from="1652057515008" duration="890000" />
-      <workItem from="1652058450539" duration="18275000" />
+      <workItem from="1652058450539" duration="24797000" />
+      <workItem from="1652260260424" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="0509">
       <created>1652057773727</created>
@@ -62,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652082587609</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0511">
+      <created>1652235302880</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652235302880</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +98,11 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="0509" />
-    <option name="LAST_COMMIT_MESSAGE" value="0509" />
+    <MESSAGE value="0511" />
+    <option name="LAST_COMMIT_MESSAGE" value="0511" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
