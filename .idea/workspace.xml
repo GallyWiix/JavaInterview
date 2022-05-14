@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d545e425-7561-4426-85be-c2283bf3677e" name="Changes" comment="0512">
-      <change afterPath="$PROJECT_DIR$/interview/JUC/Callable.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/JUC/Communication.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/JUC/MultiThreadLock.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview/JUC/ThreadPool.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/JUC/Lock.md" beforeDir="false" afterPath="$PROJECT_DIR$/interview/JUC/Lock.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +54,7 @@
       <workItem from="1652057515008" duration="890000" />
       <workItem from="1652058450539" duration="24797000" />
       <workItem from="1652260260424" duration="12331000" />
+      <workItem from="1652488935341" duration="3513000" />
     </task>
     <task id="LOCAL-00001" summary="0509">
       <created>1652057773727</created>
